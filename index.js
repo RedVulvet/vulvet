@@ -83,6 +83,28 @@ audio19 = fs.readFileSync('./database/audio/audio19.m4a')
 audio20 = fs.readFileSync('./database/audio/audio20.m4a') 
 audio21 = fs.readFileSync('./database/audio/audio21.m4a')
 
+//MUSIK
+satu = fs.readFileSync('./database/musik/sound1.mp3')
+dua = fs.readFileSync('./database/musik/sound2.mp3')
+tiga = fs.readFileSync('./database/musik/sound3.mp3')
+empat = fs.readFileSync('./database/musik/sound4.mp3')
+lima = fs.readFileSync('./database/musik/sound5.mp3')
+enam = fs.readFileSync('./database/musik/sound6.mp3')
+tujuh = fs.readFileSync('./database/musik/sound7.mp3')
+delapan = fs.readFileSync('./database/musik/sound8.mp3')
+sembilan = fs.readFileSync('./database/musik/sound9.mp3')
+sepuluh = fs.readFileSync('./database/musik/sound10.mp3')
+sebelas = fs.readFileSync('./database/musik/sound11.mp3')
+duabelas = fs.readFileSync('./database/musik/sound12.mp3')
+tigabelas = fs.readFileSync('./database/musik/sound13.mp3')
+empatbelas = fs.readFileSync('./database/musik/sound14.mp3')
+limabelas = fs.readFileSync('./database/musik/sound15.mp3')
+enambelas = fs.readFileSync('./database/musik/sound16.mp3')
+tujuhbelas = fs.readFileSync('./database/musik/sound17.mp3')
+delapanbelas = fs.readFileSync('./database/musik/sound18.mp3')
+sembilanbelas = fs.readFileSync('./database/musik/sound19.mp3')
+duapuluh = fs.readFileSync('./database/musik/sound20.mp3') 
+
 //DATAFILE
 img1 = fs.readFileSync('./gambar/thumb.jpg')
 img2 = fs.readFileSync('./gambar/fake.jpg')
@@ -640,7 +662,7 @@ st =`╭───❒ ♛ 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤 ♛
 ╭──❒ ♛ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 ♛
 ❒ 𝐍𝐚𝐦𝐞 : *${botName}*
 ❒ 𝐎𝐰𝐧𝐞𝐫 : *${ownerName}*
-❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *Adit Official*
+❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *Dityah Official*
 ❒ 𝐏𝐫𝐞𝐟𝐢𝐱 : *Multi Prefix*
 ❒ 𝐋𝐢𝐛 : *Baileys*
 ❒ 𝐓𝐲𝐩𝐞 : *NodeJS*
@@ -788,10 +810,7 @@ ${simbol} #renungan
 ${simbol} #katasindiran
 ${simbol} #quotesimage
 ${simbol} #darkjokers
-${simbol} #cina
-${simbol} #japan
-${simbol} #Waifu
-${simbol} #vietnam
+${simbol} #randomquotes
 
 「 𝙉𝙚𝙠𝙤𝙥𝙤𝙞 𝙈𝙚𝙣𝙪 」
 ${simbol} #nekopoi1
@@ -803,6 +822,257 @@ ${simbol} #nekopoi6
 ${simbol} #nekopoi7
 ${simbol} #nekopoi8
 ${simbol} #nekopoi9
+
+「 𝙂𝙧𝙖𝙥𝙝𝙞𝙘 𝙈𝙚𝙣𝙪 」
+${simbol} #8bit
+${simbol} #pornhub
+${simbol} #glitch
+${simbol} #glitch2
+${simbol} #layered
+${simbol} #realistic
+${simbol} #lionlogo
+${simbol} #ninjalogo
+${simbol} #halloween2
+${simbol} #marvel
+${simbol} #cinematic
+${simbol} #avengers
+${simbol} #graffiti3
+
+「 𝙈𝙖𝙠𝙚𝙧 𝙈𝙚𝙣𝙪 」
+${simbol} #bneon
+${simbol} #matrix
+${simbol} #breakwall
+${simbol} #dropwater
+${simbol} #lithgtext
+${simbol} #crismes
+${simbol} #tfire
+${simbol} #sandw
+${simbol} #text3dbox
+${simbol} #leavest
+${simbol} #tlight
+${simbol} #nulis
+${simbol} #blackpink
+${simbol} #neon_light
+${simbol} #gaming
+${simbol} #watercolor
+
+「 𝙒𝙖𝙡𝙡𝙥𝙖𝙥𝙚𝙧 𝙈𝙚𝙣𝙪 」
+${simbol} #wallneon
+${simbol} #wallrandom
+${simbol} #wallcode
+${simbol} #wallhacker
+${simbol} #wallpubg
+${simbol} #wallml
+
+「 𝙀𝙥𝙝𝙤𝙩𝙤 𝙈𝙚𝙣𝙪 」
+${simbol} #luxurygold
+${simbol} #watercolor
+${simbol} #multicolor3d
+${simbol} #wetglass
+${simbol} #galaxywallpaper
+${simbol} #lighttext
+${simbol} #beautifulflower
+${simbol} #puppycute
+${simbol} #royaltext
+${simbol} #heartshaped
+${simbol} #birthdaycake
+${simbol} #galaxystyle
+${simbol} #hologram3d
+${simbol} #greenneon
+${simbol} #glossychrome
+${simbol} #greenbush
+${simbol} #metallogo
+${simbol} #noeltext
+${simbol} #glittergold
+${simbol} #textcake
+${simbol} #starsnight
+${simbol} #wooden3d
+${simbol} #textbyname
+${simbol} #writegalaxy
+${simbol} #snow3d
+${simbol} #birthdayday
+${simbol} #goldplaybutton
+${simbol} #silverplaybutton
+${simbol} #freefire
+${simbol} #cartoongravity
+${simbol} #anonymhacker
+${simbol} #mlwall
+${simbol} #pubgmaskot
+${simbol} #aovwall
+${simbol} #logogaming
+${simbol} #fpslogo
+${simbol} #avatarlolnew
+${simbol} #lolbanner
+${simbol} #avatardota
+${simbol} #juventusshirt
+${simbol} #cutegravity
+${simbol} #realvintage
+${simbol} #codwarzone
+${simbol} #valorantbanner
+
+「 𝙏𝙚𝙭𝙩𝙥𝙧𝙤 𝙈𝙚𝙣𝙪 」
+${simbol} #rainbow
+${simbol} #scfi
+${simbol} #blue
+${simbol} #juice
+${simbol} #purple
+${simbol} #peridot
+${simbol} #metal 
+${simbol} #realistic
+${simbol} #impressive
+${simbol} #cracked
+${simbol} #magma
+${simbol} #thunder
+${simbol} #berry
+${simbol} #transformer 
+${simbol} #horror
+${simbol} #metallic
+${simbol} #circuit
+${simbol} #sketch
+${simbol} #halloween
+${simbol} #halloween
+${simbol} #halloween2
+${simbol} #3dgradient
+${simbol} #naturalleaves
+${simbol} #dropwater
+${simbol} #blood
+${simbol} #blood2
+${simbol} #snow
+${simbol} #cloud
+${simbol} #neondevil
+${simbol} #neon
+${simbol} #glowingneonlight
+${simbol} #neonlightglitch
+${simbol} #neonlightonbrickwall
+${simbol} #neonlight
+${simbol} #neonlight2
+${simbol} #neonlight3
+${simbol} #greenneon
+${simbol} #matrix
+${simbol} #thunder
+${simbol} #thunder2
+${simbol} #bokeh
+${simbol} #carbontext
+${simbol} #christmas
+${simbol} #breakwall
+${simbol} #roadwarning
+${simbol} #engraved3d
+${simbol} #embossed
+${simbol} #3dstone
+${simbol} #futuristic
+${simbol} #sketch
+${simbol} #bluecircuit
+${simbol} #space
+${simbol} #magmahot
+${simbol} #artpapercut
+${simbol} #3dluxurygold
+${simbol} #robotr2d2
+${simbol} #harrypotter
+${simbol} #glitch3
+${simbol} #greenhorror
+${simbol} #horrorgift
+${simbol} #hotmetal
+${simbol} #erodedmetal
+${simbol} #3dglowingmetal
+${simbol} #blackmetal
+${simbol} #bluemetal
+${simbol} #shynimetal
+${simbol} #rustymetal
+${simbol} #metalpurple
+${simbol} #metalrainbow
+${simbol} #metaldarkgold
+${simbol} #colorfullluxurymetal
+${simbol} #glossybluemetal
+${simbol} #3dglossymetal
+${simbol} #metallic
+${simbol} #glossymetallic
+${simbol} #christmastree
+${simbol} #sparklesmerrychristmas
+${simbol} #countryflag3d
+${simbol} #americanflag3d
+${simbol} #3dscfi
+${simbol} #3drainbow
+${simbol} #3dwaterpipe
+${simbol} #3dchrome
+${simbol} #bluegem
+${simbol} #purplegem
+${simbol} #pinkcandy
+${simbol} #transformer
+${simbol} #berry
+${simbol} #brokenglass
+${simbol} #3drealistic
+${simbol} #3dunderwater
+${simbol} #writeinsandsummerbeach
+${simbol} #sandwriting
+${simbol} #foilballoon
+${simbol} #3dglue
+${simbol} #1917
+${simbol} #minion
+${simbol} #doubleexposure
+${simbol} #holographic3d
+${simbol} #deluxegold
+${simbol} #deluxesilver
+${simbol} #glossycarbon
+${simbol} #fabric
+${simbol} #xmascards3d
+${simbol} #wicker
+${simbol} #fireworksparkle
+${simbol} #skeleton
+${simbol} #ultragloss
+${simbol} #denim
+${simbol} #decorategreen
+${simbol} #peridot
+${simbol} #rock
+${simbol} #lava
+${simbol} #rainbowequalizer
+${simbol} #purpleglass
+${simbol} #decorativeglass
+${simbol} #chocolatecake
+${simbol} #strawberry
+${simbol} #koifish
+${simbol} #bread
+${simbol} #3dbox
+${simbol} #freeadvancedglow
+${simbol} #honey
+${simbol} #marble
+${simbol} #marbleslabs
+${simbol} #icecold
+${simbol} #fruitjuice
+${simbol} #abstragold
+${simbol} #biscuit
+${simbol} #bagel
+${simbol} #wood
+${simbol} #hexagolden
+${simbol} #3ddeepseametal
+${simbol} #leddisplayscreen
+${simbol} #wonderfulgraffitiart
+
+「 𝙎𝙤𝙪𝙣𝙙 𝙈𝙚𝙣𝙪 」
+${simbol} #sound1
+${simbol} #sound2
+${simbol} #sound3
+${simbol} #sound4
+${simbol} #sound5
+${simbol} #sound6
+${simbol} #sound7
+${simbol} #sound8
+${simbol} #sound9
+${simbol} #sound10
+${simbol} #sound11
+${simbol} #sound12
+${simbol} #sound13
+${simbol} #sound14
+${simbol} #sound15
+${simbol} #sound16
+${simbol} #sound17
+${simbol} #sound18
+${simbol} #sound19
+${simbol} #sound20
+${simbol} #sound21
+${simbol} #sound22
+${simbol} #sound23
+${simbol} #sound24
+${simbol} #sound25
 
 「 𝙂𝙖𝙢𝙚 𝙈𝙚𝙣𝙪 」
 ${simbol} #oxo
@@ -876,7 +1146,29 @@ ${simbol} #ytsearch
 ${simbol} #thelazy
 ${simbol} #shopee
 ${simbol} #amazon
-${simbol} #arena`
+${simbol} #arena
+
+「 𝙈𝙪𝙨𝙞𝙠 𝙈𝙚𝙣𝙪 」
+${simbol} #musik1
+${simbol} #musik2
+${simbol} #musik3
+${simbol} #musik4
+${simbol} #musik5
+${simbol} #musik6
+${simbol} #musik7
+${simbol} #musik8
+${simbol} #musik9
+${simbol} #musik10
+${simbol} #musik11
+${simbol} #musik12
+${simbol} #musik13
+${simbol} #musik14
+${simbol} #musik15
+${simbol} #musik16
+${simbol} #musik17
+${simbol} #musik18
+${simbol} #musik19
+${simbol} #musik20`
 but = [
 { buttonId: `${prefix}sewa`, buttonText: { displayText: '𝚂𝚎𝚠𝚊 𝙱𝚘𝚝🎟️' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: '️𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝🤖️' }, type: 1 },
@@ -1007,6 +1299,20 @@ ${simbol} #playstore
 ${simbol} #namaninja
 `)
 break
+case 'menu9':
+reply2(`
+「 𝘾𝙚𝙠𝙘𝙚𝙠 𝙈𝙚𝙣𝙪 」
+${simbol} #tolol
+${simbol} #goblok
+${simbol} #lesbi
+${simbol} #pintar
+${simbol} #bodoh
+${simbol} #wibu
+${simbol} #sange
+${simbol} #ganteng
+${simbol} #cantik
+`)
+break
 case 'menu10':
 reply2(`
 「 𝙍𝙖𝙣𝙙𝙤𝙢 𝙈𝙚𝙣𝙪 」
@@ -1032,10 +1338,7 @@ ${simbol} #renungan
 ${simbol} #katasindiran
 ${simbol} #quotesimage
 ${simbol} #darkjokers
-${simbol} #cina
-${simbol} #japan
-${simbol} #Waifu
-${simbol} #vietnam
+${simbol} #randomquotes
 `)
 break
 case 'menu11':
@@ -1050,6 +1353,245 @@ ${simbol} #nekopoi6
 ${simbol} #nekopoi7
 ${simbol} #nekopoi8
 ${simbol} #nekopoi9
+`)
+break
+case 'menu12':
+reply2(`
+「 𝙂𝙧𝙖𝙥𝙝𝙞𝙘 𝙈𝙚𝙣𝙪 」
+${simbol} #8bit
+${simbol} #pornhub
+${simbol} #glitch
+${simbol} #glitch2
+${simbol} #layered
+${simbol} #realistic
+${simbol} #lionlogo
+${simbol} #ninjalogo
+${simbol} #halloween2
+${simbol} #marvel
+${simbol} #cinematic
+${simbol} #avengers
+${simbol} #graffiti3
+`)
+break
+case 'menu13':
+reply2(`
+「 𝙈𝙖𝙠𝙚𝙧 𝙈𝙚𝙣𝙪 」
+${simbol} #bneon
+${simbol} #matrix
+${simbol} #breakwall
+${simbol} #dropwater
+${simbol} #lithgtext
+${simbol} #crismes
+${simbol} #tfire
+${simbol} #sandw
+${simbol} #text3dbox
+${simbol} #leavest
+${simbol} #tlight
+${simbol} #nulis
+${simbol} #blackpink
+${simbol} #neon_light
+${simbol} #gaming
+${simbol} #watercolor
+`)
+break
+case 'menu14':
+reply2(`
+「 𝙒𝙖𝙡𝙡𝙥𝙖𝙥𝙚𝙧 𝙈𝙚𝙣𝙪 」
+${simbol} #wallneon
+${simbol} #wallrandom
+${simbol} #wallcode
+${simbol} #wallhacker
+${simbol} #wallpubg
+${simbol} #wallml
+`)
+break
+case 'menu15':
+reply2(`
+「 𝙀𝙥𝙝𝙤𝙩𝙤 𝙈𝙚𝙣𝙪 」
+${simbol} #luxurygold
+${simbol} #watercolor
+${simbol} #multicolor3d
+${simbol} #wetglass
+${simbol} #galaxywallpaper
+${simbol} #lighttext
+${simbol} #beautifulflower
+${simbol} #puppycute
+${simbol} #royaltext
+${simbol} #heartshaped
+${simbol} #birthdaycake
+${simbol} #galaxystyle
+${simbol} #hologram3d
+${simbol} #greenneon
+${simbol} #glossychrome
+${simbol} #greenbush
+${simbol} #metallogo
+${simbol} #noeltext
+${simbol} #glittergold
+${simbol} #textcake
+${simbol} #starsnight
+${simbol} #wooden3d
+${simbol} #textbyname
+${simbol} #writegalaxy
+${simbol} #snow3d
+${simbol} #birthdayday
+${simbol} #goldplaybutton
+${simbol} #silverplaybutton
+${simbol} #freefire
+${simbol} #cartoongravity
+${simbol} #anonymhacker
+${simbol} #mlwall
+${simbol} #pubgmaskot
+${simbol} #aovwall
+${simbol} #logogaming
+${simbol} #fpslogo
+${simbol} #avatarlolnew
+${simbol} #lolbanner
+${simbol} #avatardota
+${simbol} #juventusshirt
+${simbol} #cutegravity
+${simbol} #realvintage
+${simbol} #codwarzone
+${simbol} #valorantbanner
+`)
+break
+case 'menu16':
+reply2(`
+「 𝙏𝙚𝙭𝙩𝙥𝙧𝙤 𝙈𝙚𝙣𝙪 」
+${simbol} #rainbow
+${simbol} #scfi
+${simbol} #blue
+${simbol} #juice
+${simbol} #purple
+${simbol} #peridot
+${simbol} #metal 
+${simbol} #realistic
+${simbol} #impressive
+${simbol} #cracked
+${simbol} #magma
+${simbol} #thunder
+${simbol} #berry
+${simbol} #transformer 
+${simbol} #horror
+${simbol} #metallic
+${simbol} #circuit
+${simbol} #sketch
+${simbol} #halloween
+${simbol} #halloween
+${simbol} #halloween2
+${simbol} #3dgradient
+${simbol} #naturalleaves
+${simbol} #dropwater
+${simbol} #blood
+${simbol} #blood2
+${simbol} #snow
+${simbol} #cloud
+${simbol} #neondevil
+${simbol} #neon
+${simbol} #glowingneonlight
+${simbol} #neonlightglitch
+${simbol} #neonlightonbrickwall
+${simbol} #neonlight
+${simbol} #neonlight2
+${simbol} #neonlight3
+${simbol} #greenneon
+${simbol} #matrix
+${simbol} #thunder
+${simbol} #thunder2
+${simbol} #bokeh
+${simbol} #carbontext
+${simbol} #christmas
+${simbol} #breakwall
+${simbol} #roadwarning
+${simbol} #engraved3d
+${simbol} #embossed
+${simbol} #3dstone
+${simbol} #futuristic
+${simbol} #sketch
+${simbol} #bluecircuit
+${simbol} #space
+${simbol} #magmahot
+${simbol} #artpapercut
+${simbol} #3dluxurygold
+${simbol} #robotr2d2
+${simbol} #harrypotter
+${simbol} #glitch3
+${simbol} #greenhorror
+${simbol} #horrorgift
+${simbol} #hotmetal
+${simbol} #erodedmetal
+${simbol} #3dglowingmetal
+${simbol} #blackmetal
+${simbol} #bluemetal
+${simbol} #shynimetal
+${simbol} #rustymetal
+${simbol} #metalpurple
+${simbol} #metalrainbow
+${simbol} #metaldarkgold
+${simbol} #colorfullluxurymetal
+${simbol} #glossybluemetal
+${simbol} #3dglossymetal
+${simbol} #metallic
+${simbol} #glossymetallic
+${simbol} #christmastree
+${simbol} #sparklesmerrychristmas
+${simbol} #countryflag3d
+${simbol} #americanflag3d
+${simbol} #3dscfi
+${simbol} #3drainbow
+${simbol} #3dwaterpipe
+${simbol} #3dchrome
+${simbol} #bluegem
+${simbol} #purplegem
+${simbol} #pinkcandy
+${simbol} #transformer
+${simbol} #berry
+${simbol} #brokenglass
+${simbol} #3drealistic
+${simbol} #3dunderwater
+${simbol} #writeinsandsummerbeach
+${simbol} #sandwriting
+${simbol} #foilballoon
+${simbol} #3dglue
+${simbol} #1917
+${simbol} #minion
+${simbol} #doubleexposure
+${simbol} #holographic3d
+${simbol} #deluxegold
+${simbol} #deluxesilver
+${simbol} #glossycarbon
+${simbol} #fabric
+${simbol} #xmascards3d
+${simbol} #wicker
+${simbol} #fireworksparkle
+${simbol} #skeleton
+${simbol} #ultragloss
+${simbol} #denim
+${simbol} #decorategreen
+${simbol} #peridot
+${simbol} #rock
+${simbol} #lava
+${simbol} #rainbowequalizer
+${simbol} #purpleglass
+${simbol} #decorativeglass
+${simbol} #chocolatecake
+${simbol} #strawberry
+${simbol} #koifish
+${simbol} #bread
+${simbol} #3dbox
+${simbol} #freeadvancedglow
+${simbol} #honey
+${simbol} #marble
+${simbol} #marbleslabs
+${simbol} #icecold
+${simbol} #fruitjuice
+${simbol} #abstragold
+${simbol} #biscuit
+${simbol} #bagel
+${simbol} #wood
+${simbol} #hexagolden
+${simbol} #3ddeepseametal
+${simbol} #leddisplayscreen
+${simbol} #wonderfulgraffitiart
 `)
 break
 case 'menu17':
@@ -1080,6 +1622,23 @@ ${simbol} #sound22
 ${simbol} #sound23
 ${simbol} #sound24
 ${simbol} #sound25
+`)
+break
+case 'menu18':
+reply2(`
+「 𝙂𝙖𝙢𝙚 𝙈𝙚𝙣𝙪 」
+${simbol} #oxo
+${simbol} #slot
+${simbol} #udara
+${simbol} #darat
+${simbol} #laut
+${simbol} #caklontong
+${simbol} #tebakgambar
+${simbol} #tebakkata
+${simbol} #tebaklirik
+${simbol} #tebakjenaka
+${simbol} #tebakkimia
+${simbol} #tebakbendera
 `)
 break
 case 'menu19':
@@ -1141,6 +1700,57 @@ ${simbol} #horror
 ${simbol} #hellokitty
 `)
 break
+case 'menu23':
+reply2(`
+「 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙨𝙞 𝙈𝙚𝙣𝙪 」
+${simbol} #kisahnabi
+${simbol} #asmaulhusna
+${simbol} #quran
+${simbol} #hadist
+${simbol} #infohoax
+${simbol} #corona
+${simbol} #jadwalbola
+${simbol} #jamdunia
+${simbol} #jam
+${simbol} #antara
+${simbol} #okezone
+${simbol} #kompas
+${simbol} #berita
+${simbol} #sfile
+${simbol} #rexdl
+${simbol} #cersex
+${simbol} #ytsearch
+${simbol} #thelazy
+${simbol} #shopee
+${simbol} #amazon
+${simbol} #arena
+`)
+break
+case 'menu24':
+reply2(`
+「 𝙈𝙪𝙨𝙞𝙠 𝙈𝙚𝙣𝙪 」
+${simbol} #musik1
+${simbol} #musik2
+${simbol} #musik3
+${simbol} #musik4
+${simbol} #musik5
+${simbol} #musik6
+${simbol} #musik7
+${simbol} #musik8
+${simbol} #musik9
+${simbol} #musik10
+${simbol} #musik11
+${simbol} #musik12
+${simbol} #musik13
+${simbol} #musik14
+${simbol} #musik15
+${simbol} #musik16
+${simbol} #musik17
+${simbol} #musik18
+${simbol} #musik19
+${simbol} #musik20
+`)
+break
 case 'ccp':
 sticWait(from)
 cp = await getBuffer(`https://myselfff.herokuapp.com/docs/random/ttp?query=${q}`)
@@ -1150,7 +1760,7 @@ case 'fitur':
 ros = await Lexxy.prepareMessageFromContent(from,{
 "listMessage": {
 "title": `*_Created By ${ownerName}_*`,
-"description": `*Hallo @${sender.split('@')[0]}*\nini Adalah Fitur Bot Yg Ada , Mohon Jangan Spam Biar Bot Nya Tidak Delay, Terima Kasih Semoga Harimu Bahagia Selalu, *Support By Lexxy*`,
+"description": `*Hallo @${sender.split('@')[0]}*\nini Adalah Fitur Bot Yg Ada , Mohon Jangan Spam Biar Bot Nya Tidak Delay, Terima Kasih Semoga Harimu Bahagia Selalu, By Adit Gans `,
 "buttonText": "𝙇𝙞𝙨𝙩 𝙈𝙚𝙣𝙪",
 "listType": "SINGLE_SELECT",
 "sections": [
@@ -1198,6 +1808,11 @@ ros = await Lexxy.prepareMessageFromContent(from,{
 "rowId": `${prefix}menu8`
 },
 {
+"title": "☰ Cekcek Menu",
+"description": `Menampilkan Fitur Cekcek`,
+"rowId": `${prefix}menu9`
+},
+{
 "title": "☰ Random Menu️",
 "description": `Menampilkan Fitur Random`,
 "rowId": `${prefix}menu10`
@@ -1206,6 +1821,31 @@ ros = await Lexxy.prepareMessageFromContent(from,{
 "title": "☰ Nekopoi Menu",
 "description": `Menampilkan Fitur Nekopoi`,
 "rowId": `${prefix}menu11`
+},
+{
+"title": "☰ Graphic Menu",
+"description": `Menampilkan Fitur Graphic`,
+"rowId": `${prefix}menu12`
+},
+{
+"title": "☰ ️Maker Menu",
+"description": `Menampilkan Fitur Maker`,
+"rowId": `${prefix}menu13`
+},
+{
+"title": "☰ Wallpaper Menu️",
+"description": `Menampilkan Fitur Wallpaper`,
+"rowId": `${prefix}menu14`
+},
+{
+"title": "☰ Ephoto Menu️",
+"description": `Menampilkan Fitur Ephoto`,
+"rowId": `${prefix}menu15`
+},
+{
+"title": "☰ TextPro Menu",
+"description": `Menampilkan Fitur TextPro`,
+"rowId": `${prefix}menu16`
 },
 {
 "title": "☰ Sound Menu",
@@ -1292,7 +1932,7 @@ sendStickerFromUrl(from, pjr)
 )
 break
 case 'scbot':
-reply('Bot ini Menggunakan Script by Adit!!!!')
+reply('Bot ini Menggunakan sc\nhttps://youtu.be/_44pvsbCR6s')
 break
 case 'runtime':
 uptime = process.uptime();
@@ -1613,7 +2253,7 @@ case 'gheayubi':
 case 'nantalia':
 sticWait(from)
 asupan = await getBuffer(`https://apidhani.herokuapp.com/api/asupan/${command}?apikey=${dhakey}`)
-Lexxy.sendMessage(from, asupan, video, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, asupan, video, {quoted: mek, caption: 'by Adit'})
 break
 case 'darkjoke': case 'darkjokes': case 'joke': case 'jokes': case 'meme':
 sticWait(from)
@@ -1627,34 +2267,14 @@ break
 case 'hijaber':
 sticWait(from)
 asupan = await getBuffer(`https://apidhani.herokuapp.com/api/asupan/hijaber?apikey=${dhakey}`)
-Lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: 'By Adit Gans'})
-break
-case 'cina':
-sticWait(from)
-asupan = await getBuffer(`https://violetics.pw/api/asupan/chinese?apikey=${Adit}`)
-lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: 'By Adit Gans'})
-break
-case 'japan':
-sticWait(from)
-asupan = await getBuffer(`https://violetics.pw/api/asupan/japan?apikey=${Adit}`)
-lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: 'By Adit Gans'})
-break
-case 'megumin':
-sticWait(from)
-asupan = await getBuffer(`https://api.lolhuman.xyz/api/random/megumin?apikey=${Adit}`)
-lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: 'By Adit Gans'})
-break
-case 'vietnam':
-sticWait(from)
-asupan = await getBuffer(`https://violetics.pw/api/asupan/vietnam?apikey=${Adit}`)
-lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: 'By adit'})
 break
 case 'quotesimage':
 case 'renungan':
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/${command}?apikey=${dhakey}`)
 oke = await getBuffer(anu.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By adit'})
 break
 case 'attp':
 reply(mess.wait)
@@ -1929,7 +2549,7 @@ case 'darkjokers':
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/darkjokes?apikey=${dhakey}`)
 oke = await getBuffer(anu.result.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By adit'})
 break
 case 'wallpapermuslim':
 case 'wallpapercyberspace':
@@ -1938,11 +2558,11 @@ case 'wallpaperprogramming':
 case 'wallpapertechnology':
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/other/${command}?apikey=${dhakey}`)
 oke = await getBuffer(anu.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By adit'})
 break
 case 'wallpapernaruto':
 oke = await getBuffer(`https://apidhani.herokuapp.com/api/anime/naruto?apikey=${dhakey}`)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By adit'})
 break
 case 'bitly':
 sticWait(from)
@@ -2166,7 +2786,7 @@ case 'codwarzone':
 case 'valorantbanner':
 if (!isPremier)return reply(mess.premier)
 if (isBanned)return sticBanned(from)
-if (args.length == 0) return reply(`Teks Nya Mana ?\nContoh : ${prefix + command} Lexxy`)
+if (args.length == 0) return reply(`Teks Nya Mana ?\nContoh : ${prefix + command} Adit`)
 textt = args.join(" ")
 sticWait(from)
 hsel = await getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${LolKey}&text=${textt}`)
@@ -2227,7 +2847,7 @@ case 'poke':
 case 'neko':
 case 'meow':
 case 'lizard':
-case 'foxgirl':
+case 'foxGirl':
 case 'holo':
 case 'woof':
 case 'goose':
@@ -2516,7 +3136,7 @@ if (args.length < 1) return reply('Text Nya om')
 sticWait(from)
 nyz5 = await fetchJson(`${api}/textpro/${command}?text=${q}`) 
 nyz4 = await getBuffer(nyz5.result)
-Lexxy.sendMessage(from, nyz4, image, {thumbnail:Buffer.alloc(0), caption: 'By Adit Gans',quoted: mek})
+Lexxy.sendMessage(from, nyz4, image, {thumbnail:Buffer.alloc(0), caption: 'By adit',quoted: mek})
 break
 case 'darkmeme':
 sticWait(from)
@@ -2676,7 +3296,7 @@ case 'serti2':
 case 'serti3':
 if (!isPremier)return reply(mess.premier)
 if (isBanned)return sticBanned(from)
-if (args.length ==0) return reply(`Text Nya Mana kak? Contoh\n${prefix+command} Lexxy`)
+if (args.length ==0) return reply(`Text Nya Mana kak? Contoh\n${prefix+command} Adit`)
 txtt = args.join (" ")
 sticWait(from)
 buff = await getBuffer(`https://sertiojanganzapi.nasihosting.com/serti/${command}/img.php?nama=${txtt}`)
@@ -2697,7 +3317,7 @@ case 'nuliskanan':
 case 'foliokiri':
 case 'foliokanan':
 if (isBanned)return sticBanned(from)
-if (args.length ==0) return reply(`Text Nya Mana kak? Contoh\n${prefix+command} Lexxy`)
+if (args.length ==0) return reply(`Text Nya Mana kak? Contoh\n${prefix+command} Adit`)
 mgr = args.join (" ")
 sticWait(from)
 buff = await getBuffer(`https://hardianto.xyz/api/${command}?text=${mgr}&apikey=${HardiApi}`)
@@ -2748,14 +3368,14 @@ teks = args.join(" ")
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/${command}?apikey=${dhakey}&text=${teks}`)
 oke = await getBuffer(anu.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'By adit'})
 break
 case 'hartatahta': 
 if (args.length < 1) return reply(`*Teks nya mana?*\n_Contoh : ${prefix + command} namamu_`) 
 teks = args.join(" ")
 sticWait(from)
 harta = await getBuffer(`https://apidhani.herokuapp.com/api/maker/harta-tahta?apikey=${dhakey}&text=${teks}`)
-Lexxy.sendMessage(from, harta, image, {quoted: mek, caption: 'By Adit Gans'})
+Lexxy.sendMessage(from, harta, image, {quoted: mek, caption: 'By adit'})
 break
 
 //----> 2 TEXT <----//
@@ -2768,7 +3388,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/8bit?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'pornhub':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2778,7 +3398,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/pornhub?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'toxic':
 Toxic().then(toxic => {
@@ -2793,7 +3413,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/glitch?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'glitch2':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2803,7 +3423,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/glitch2?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'layered':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2813,7 +3433,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/layered?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case '3dsteel':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2823,7 +3443,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/3dsteel?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'realistic':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2833,7 +3453,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/realistic?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'lionlogo':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2843,7 +3463,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/lionlogo?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'ninjalogo':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2853,7 +3473,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/ninjalogo?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'halloween2':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2863,7 +3483,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/halloween2?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'marvel':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2873,7 +3493,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/marvelstudio?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'marvel2':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2883,7 +3503,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/marvelstudio2?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'cinematic':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2893,7 +3513,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/cinematichorror?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'avengers':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2903,7 +3523,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/avengerslogo?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'graffiti3':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2913,7 +3533,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/coolwallgraffiti?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'captain':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2923,7 +3543,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/captainamerica?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `By adit`, quoted: mek})
 break
 case 'girlneko':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2932,7 +3552,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/girlneko?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `By adit`, quoted: mek})
 break
 case 'sadboy':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2941,7 +3561,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/sadboy?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `By adit`, quoted: mek})
 break
 case 'kaneki':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2950,7 +3570,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/kaneki?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `By adit`, quoted: mek})
 break
 case 'rem':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2959,7 +3579,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/rem?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `By adit`, quoted: mek})
 break
 case 'lolimaker':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2968,7 +3588,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/lolimaker?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `By adit`, quoted: mek})
 break
 case 'gura':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama*`)
@@ -2977,7 +3597,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/gura?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `By Adit Gans`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `By adit`, quoted: mek})
 break
 case 'readall':
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
@@ -2993,26 +3613,21 @@ case 'kaneki':
 case 'rem':
 case 'lolimaker':
 if (isBanned)return sticBanned(from)
-if (args.length ==0)return reply(`Textnya mana kak? Contoh\n${prefix + command} Lexxy`)
+if (args.length ==0)return reply(`Textnya mana kak? Contoh\n${prefix + command} Adit`)
 bo = args.join(" ")
 sticWait(from)
 bf = await getBuffer(`https://ziy.herokuapp.com/api/${command}?nama=${bo}&apikey=${ziyApi}`)
-Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'By adit Gans' })
+Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'By adit' })
 break
 case 'girlneko':
 case 'sadboy':
 if (isBanned)return sticBanned(from)
-if (args.length ==0)return reply(`Textnya mana kak? Contoh\n${prefix + command} By Adit Gans`)
+if (args.length ==0)return reply(`Textnya mana kak? Contoh\n${prefix + command} Adit OFC`)
 txt1 = args[0]
 txt2 = args[1]
 sticWait(from)
 bf = await getBuffer(`https://ziy.herokuapp.com/api/${command}?text1=${txt1}&text2=${txt2}&apikey=${ziyApi}`)
-Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'By Adit Gans' })
-break
-case 'Tes':
-if (isBanned)return sticBanned(from)
-bf = await getBuffer(`https://zenzapis.xyz/api/random/anime?apikey=${Adit}`)
-Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'By Adit Gans' })
+Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'By adit' })
 break
 case 'donasi':
 dno = fs.readFileSync('./gambar/qris.jpg')
